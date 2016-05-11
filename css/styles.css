@@ -117,7 +117,7 @@ a:visited {
 }
 
 .student-card:before {
-  content: "";
+  content: ();
   position: absolute;
   top: 0;
   bottom: 0;
@@ -127,12 +127,11 @@ a:visited {
   border-radius: 5px;
 }
 
-.student-card a {
+.student-card a { 
   position: relative;
   display: block;
   height: 400px;
 }
-
 
 #nana-adukrow-cover {
   background-image: url("..assets/img/nana-adukrow-cover.jpg");
@@ -461,6 +460,14 @@ a:visited {
 
 #seth-lachman-card {
   background-image: url("../assets/img/seth-lachman.jpg");
+}
+
+#scott-bewick-card {
+  background-image: url("../assets/img/scott-bewick.jpg");
+}
+
+#scott-bewick-cover {
+  background-image: url("../assets/img/scott-bewick-cover.jpg");
 }
 
 #asher-sullivan-card {
@@ -3569,7 +3576,7 @@ a:visited {
 }
 
 .profile-name,
-.profile-location {
+.profile-location { 
   font-weight: normal;
 }
 
@@ -3589,6 +3596,7 @@ a:visited {
   color: #85929d;
   width: 75%;
   margin: 0 auto;
+  text-align: center;
 }
 
 .details-container {
